@@ -1,0 +1,46 @@
+{
+  "propertyId": "prop_8412",
+  "generatedAt": "2026-09-02T09:14:00Z",
+  "rooms": [
+    {
+      "roomId": "r1",
+      "name": "Living room",
+      "photoCount": 3,
+      "items": [
+        { "id": "i1", "label": "Sofa", "quantity": 1, "volumeM3": 1.8, "confidence": 0.94, "movable": true },
+        { "id": "i2", "label": "Armchair", "quantity": 2, "volumeM3": 0.7, "confidence": 0.88, "movable": true },
+        { "id": "i3", "label": "Coffee table", "quantity": 1, "volumeM3": 0.35, "confidence": 0.51, "movable": true },
+        { "id": "i4", "label": "Television", "quantity": 1, "volumeM3": 0.15, "confidence": 0.97, "movable": true },
+        { "id": "i5", "label": "Bookshelf", "quantity": 1, "volumeM3": null, "confidence": 0.79, "movable": true }
+      ]
+    },
+    {
+      "roomId": "r2",
+      "name": "Kitchen",
+      "photoCount": 2,
+      "items": [
+        { "id": "i6", "label": "Refrigerator", "quantity": 1, "volumeM3": 1.1, "confidence": 0.93, "movable": true },
+        { "id": "i7", "label": "Built-in oven with integrated extractor hood unit", "quantity": 1, "volumeM3": 0.4, "confidence": 0.85, "movable": false },
+        { "id": "i8", "label": "Dining chair", "quantity": 6, "volumeM3": 0.3, "confidence": 0.72, "movable": true },
+        { "id": "i9", "label": "Dining table", "quantity": 1, "volumeM3": 0.9, "confidence": 0.31, "movable": true }
+      ]
+    },
+    {
+      "roomId": "r3",
+      "name": "Bathroom",
+      "photoCount": 1,
+      "items": []
+    },
+    {
+      "roomId": "r4",
+      "name": "Bedroom",
+      "photoCount": 2,
+      "items": [
+        { "id": "i10", "label": "Double bed", "quantity": 1, "volumeM3": 2.2, "confidence": 0.96, "movable": true },
+        { "id": "i11", "label": "Wardrobe", "quantity": 2, "volumeM3": 1.5, "confidence": 0.9, "movable": true },
+        { "id": "i12", "label": "Nightstand", "quantity": 2, "volumeM3": 0.2, "confidence": 0.44, "movable": true },
+        { "id": "i13", "label": "Mirror", "quantity": 1, "volumeM3": 0.1, "confidence": 0.28, "movable": true }
+      ]
+    }
+  ]
+}

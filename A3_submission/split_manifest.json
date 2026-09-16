@@ -1,0 +1,553 @@
+{
+  "seed": 42,
+  "method": "Python random.Random(42), sorted filenames shuffled per class, round then rectangular; ceil(25%) test; source files preserved",
+  "scope": "Only train/ and test/ are experiment inputs; original class folders remain as source copies. Exact byte duplicates checked; near-duplicates and room grouping rely on user review.",
+  "files": [
+    {
+      "source": "round/3398.jpg",
+      "destination": "test/round/3398.jpg",
+      "label": "round",
+      "split": "test",
+      "sha256": "2a9941a78f18a169ba978b70adc352d0fd0965585213f06774b93163271e7ecd"
+    },
+    {
+      "source": "round/954.jpg",
+      "destination": "test/round/954.jpg",
+      "label": "round",
+      "split": "test",
+      "sha256": "e56e5f8091e6cb8881a40e6171650796497d967f296baddbf62c30edc5ee2033"
+    },
+    {
+      "source": "round/3348.jpg",
+      "destination": "test/round/3348.jpg",
+      "label": "round",
+      "split": "test",
+      "sha256": "6a4a21acce1765e8f497174fdb0ec628fbd8af01a900aa65f35338ca4e83011b"
+    },
+    {
+      "source": "round/932.jpg",
+      "destination": "test/round/932.jpg",
+      "label": "round",
+      "split": "test",
+      "sha256": "dc5d44d55ea7fb346639c9c027164d12e55018d4c34d350396bbef6e851b5158"
+    },
+    {
+      "source": "round/963_00027_mod.jpg",
+      "destination": "test/round/963_00027_mod.jpg",
+      "label": "round",
+      "split": "test",
+      "sha256": "ba19513463e83ad17e25947e7873ae039fe3c99d2039362a03a9c32a9174931d"
+    },
+    {
+      "source": "round/5217.jpg",
+      "destination": "test/round/5217.jpg",
+      "label": "round",
+      "split": "test",
+      "sha256": "be2177c0a9f7522a060b033026c1ac01d0ca3b43ab8582a34869ee7fba8c70f8"
+    },
+    {
+      "source": "round/3480.jpg",
+      "destination": "test/round/3480.jpg",
+      "label": "round",
+      "split": "test",
+      "sha256": "631dba5f499ff893e7344d9546898aebc536e0c8dc5ebbca99c3d260e537142b"
+    },
+    {
+      "source": "round/2438.jpg",
+      "destination": "test/round/2438.jpg",
+      "label": "round",
+      "split": "test",
+      "sha256": "8cb914203d3f973a097d1e0a304ef24ba1e380e451e7670f93e8570ef7766e20"
+    },
+    {
+      "source": "round/5069.jpg",
+      "destination": "test/round/5069.jpg",
+      "label": "round",
+      "split": "test",
+      "sha256": "9adddd66353c7ec516c6c9b86e1dcf13f40498077aa14fa0578ebfa2817d00d8"
+    },
+    {
+      "source": "round/5263.jpg",
+      "destination": "test/round/5263.jpg",
+      "label": "round",
+      "split": "test",
+      "sha256": "87bb31f103ce98c0d4bb82eea639bd48fc537921d6e03f0621647af702da5432"
+    },
+    {
+      "source": "round/5082.jpg",
+      "destination": "train/round/5082.jpg",
+      "label": "round",
+      "split": "train",
+      "sha256": "0e9fdea16a225d1f4339345e54a12decdfa39895b0d602810425a86d0b8b6b31"
+    },
+    {
+      "source": "round/167.jpg",
+      "destination": "train/round/167.jpg",
+      "label": "round",
+      "split": "train",
+      "sha256": "fa732be5fd2f122ee336bff341d429abb63a10b542226e63d8db09a245d37449"
+    },
+    {
+      "source": "round/3055.jpg",
+      "destination": "train/round/3055.jpg",
+      "label": "round",
+      "split": "train",
+      "sha256": "77949d85ff70950b6f1ac78cf28a669cf5c6b42acc02ec26a50864a0a592f193"
+    },
+    {
+      "source": "round/4666.jpg",
+      "destination": "train/round/4666.jpg",
+      "label": "round",
+      "split": "train",
+      "sha256": "8073d0e52600b9f64e5546ed6258771d7fec4915187071d68163d68a96eea6e9"
+    },
+    {
+      "source": "round/145.jpg",
+      "destination": "train/round/145.jpg",
+      "label": "round",
+      "split": "train",
+      "sha256": "beceadc876b9a2de2a7a3489d663d65472d597f9015503cfcfe30637467de554"
+    },
+    {
+      "source": "round/5031.jpg",
+      "destination": "train/round/5031.jpg",
+      "label": "round",
+      "split": "train",
+      "sha256": "3817114aa29ffbd822b728076153cc422e3b7306954aff78ef93168802137b09"
+    },
+    {
+      "source": "round/4675.jpg",
+      "destination": "train/round/4675.jpg",
+      "label": "round",
+      "split": "train",
+      "sha256": "9f54cbd395e8b4c0950872f2256decef0ae54c1a1fdaeea08f98c7256f54a45a"
+    },
+    {
+      "source": "round/4747.jpg",
+      "destination": "train/round/4747.jpg",
+      "label": "round",
+      "split": "train",
+      "sha256": "d3e77dd4d014709aa1b423fa90e7a0e83a4716d9700813b2e7fbf05eaa562ade"
+    },
+    {
+      "source": "round/4586.jpg",
+      "destination": "train/round/4586.jpg",
+      "label": "round",
+      "split": "train",
+      "sha256": "4e5978095890b3723bef880702e0c8939cb5b79677530a2affedda06da0f2b01"
+    },
+    {
+      "source": "round/990.jpg",
+      "destination": "train/round/990.jpg",
+      "label": "round",
+      "split": "train",
+      "sha256": "50a24bd7d99725356465221cbc6d122ef70b04ccb9f2e694eefec15256fa7f3a"
+    },
+    {
+      "source": "round/931.jpg",
+      "destination": "train/round/931.jpg",
+      "label": "round",
+      "split": "train",
+      "sha256": "5db54067173c67231ae8ddaf0d491b8d31429ff659e049cda176d06ad9a37808"
+    },
+    {
+      "source": "round/5076.jpg",
+      "destination": "train/round/5076.jpg",
+      "label": "round",
+      "split": "train",
+      "sha256": "24c1671c572a9b7527200b7e23cc48ffc6492533dbe4ab7a5ce099c20d5b5e5e"
+    },
+    {
+      "source": "round/1008_00048_mod.jpg",
+      "destination": "train/round/1008_00048_mod.jpg",
+      "label": "round",
+      "split": "train",
+      "sha256": "17c756136e4ebcfc59fae40b096809640bb774b899e3876a53ea3641f74f2565"
+    },
+    {
+      "source": "round/9884.jpg",
+      "destination": "train/round/9884.jpg",
+      "label": "round",
+      "split": "train",
+      "sha256": "51671eda116fdbe26cc4043bf6564894cc9b4d8dede9b521d0adb355106d63c6"
+    },
+    {
+      "source": "round/3586_00042_mod.jpg",
+      "destination": "train/round/3586_00042_mod.jpg",
+      "label": "round",
+      "split": "train",
+      "sha256": "12ece2dd0c2f95124228842edcfd5a639e532292dd994f759ed1b680c5e96876"
+    },
+    {
+      "source": "round/4647.jpg",
+      "destination": "train/round/4647.jpg",
+      "label": "round",
+      "split": "train",
+      "sha256": "209a891f340ad9d3b8457e460e08895d64ae568fae67af828d992a43619d330c"
+    },
+    {
+      "source": "round/132.jpg",
+      "destination": "train/round/132.jpg",
+      "label": "round",
+      "split": "train",
+      "sha256": "a89880c08c92be7137f763268d163bee0a48c7f1389254d0c9c271a3deaf4a1b"
+    },
+    {
+      "source": "round/9751.jpg",
+      "destination": "train/round/9751.jpg",
+      "label": "round",
+      "split": "train",
+      "sha256": "fe63e8689d5b110bc8cd731359d18cee746f869a5d16e11c8de893542b3f436e"
+    },
+    {
+      "source": "round/5164.jpg",
+      "destination": "train/round/5164.jpg",
+      "label": "round",
+      "split": "train",
+      "sha256": "bc4deea65d9861fd1d7ee70cee0a20641ae806968f36d11b0bfdf6af4907519d"
+    },
+    {
+      "source": "round/4751.jpg",
+      "destination": "train/round/4751.jpg",
+      "label": "round",
+      "split": "train",
+      "sha256": "d07139db0de8ef9538cc44a230446aad36422efd5d7fb2f287097a47f97d905d"
+    },
+    {
+      "source": "round/4686.jpg",
+      "destination": "train/round/4686.jpg",
+      "label": "round",
+      "split": "train",
+      "sha256": "206cb60fbaa11f51466fdeb3f12fa36a64ed28081a363902a0e67b92b3841280"
+    },
+    {
+      "source": "round/2500.jpg",
+      "destination": "train/round/2500.jpg",
+      "label": "round",
+      "split": "train",
+      "sha256": "28a4979b0a8a4a155869026c2c6eac6e1584acd96dcad870c4490dd424570e2d"
+    },
+    {
+      "source": "round/2741.jpg",
+      "destination": "train/round/2741.jpg",
+      "label": "round",
+      "split": "train",
+      "sha256": "2cad7d6786c6c4fb7562f02da039a98dd191455980bab514b930443284c6fffc"
+    },
+    {
+      "source": "round/3831.jpg",
+      "destination": "train/round/3831.jpg",
+      "label": "round",
+      "split": "train",
+      "sha256": "f6eb7901065936c73437c634b2f577e5dadec88dd20b6e5bd1ca0cb4b55a29af"
+    },
+    {
+      "source": "round/4118.jpg",
+      "destination": "train/round/4118.jpg",
+      "label": "round",
+      "split": "train",
+      "sha256": "afe46055d38d64a0af698dac07c5bdddeb19a1172e7ff3b291be078cc7391a08"
+    },
+    {
+      "source": "round/4638.jpg",
+      "destination": "train/round/4638.jpg",
+      "label": "round",
+      "split": "train",
+      "sha256": "ae82a871126fd286f0010bb955a0ed01d42395877258eb62557bc02f4b0f7e48"
+    },
+    {
+      "source": "round/1261.jpg",
+      "destination": "train/round/1261.jpg",
+      "label": "round",
+      "split": "train",
+      "sha256": "4e1b89c1f816c5c8b588e9c70b23025dd633bd8575da511c2f1300a73383e195"
+    },
+    {
+      "source": "round/2500_00039_mod.jpg",
+      "destination": "train/round/2500_00039_mod.jpg",
+      "label": "round",
+      "split": "train",
+      "sha256": "16eaba5caf5d3b9527d28b1f4deb70188e911f6b2eb06355713540a96559cdc9"
+    },
+    {
+      "source": "rectangular/5188.jpg",
+      "destination": "test/rectangular/5188.jpg",
+      "label": "rectangular",
+      "split": "test",
+      "sha256": "c980e2238cb28449370fff3d63055e3a7e0c54535f9243532a43cb5019e593e2"
+    },
+    {
+      "source": "rectangular/5189.jpg",
+      "destination": "test/rectangular/5189.jpg",
+      "label": "rectangular",
+      "split": "test",
+      "sha256": "0ba23fdc7fe4a8e3670a900fab62872fa28318173817f66c256bce4c0ebb3ea3"
+    },
+    {
+      "source": "rectangular/5186.jpg",
+      "destination": "test/rectangular/5186.jpg",
+      "label": "rectangular",
+      "split": "test",
+      "sha256": "3c92093399b0ababaca45b22bd11b1ae51980849dd21119aacfe278fc3321709"
+    },
+    {
+      "source": "rectangular/1157.jpg",
+      "destination": "test/rectangular/1157.jpg",
+      "label": "rectangular",
+      "split": "test",
+      "sha256": "30aaa5c81f61158d68411582e94261f46a97b10e1441a2371f71b12d6e41e560"
+    },
+    {
+      "source": "rectangular/6334.jpg",
+      "destination": "test/rectangular/6334.jpg",
+      "label": "rectangular",
+      "split": "test",
+      "sha256": "71264a381146c30452dfb4de4400d0d8c6c368dda3e28848a5a74079ef4f8e74"
+    },
+    {
+      "source": "rectangular/5161.jpg",
+      "destination": "test/rectangular/5161.jpg",
+      "label": "rectangular",
+      "split": "test",
+      "sha256": "47eae44f6e7822b398ee578109c5ce1b32a41db329fcea01f0e7dd3788a62edf"
+    },
+    {
+      "source": "rectangular/6840.jpg",
+      "destination": "test/rectangular/6840.jpg",
+      "label": "rectangular",
+      "split": "test",
+      "sha256": "7d0ba981c4bd4a5934d621fd28cb04b9856dd56b2ebd72eb7b53b046ca688115"
+    },
+    {
+      "source": "rectangular/4477.jpg",
+      "destination": "test/rectangular/4477.jpg",
+      "label": "rectangular",
+      "split": "test",
+      "sha256": "4f01acb6e1a237bbf330ce844399eda63b430b1b7cf1c0056ef85a7aa8eef82f"
+    },
+    {
+      "source": "rectangular/7949.jpg",
+      "destination": "test/rectangular/7949.jpg",
+      "label": "rectangular",
+      "split": "test",
+      "sha256": "441f6b003a075620b6533768451a1e266c69ad7cfad2dc119b78753a2ed006f9"
+    },
+    {
+      "source": "rectangular/8242.jpg",
+      "destination": "test/rectangular/8242.jpg",
+      "label": "rectangular",
+      "split": "test",
+      "sha256": "f14c131aad8b2d1633b6b9e5d6279c28c0430197faa1f35cacd7425564dad07f"
+    },
+    {
+      "source": "rectangular/4200.jpg",
+      "destination": "train/rectangular/4200.jpg",
+      "label": "rectangular",
+      "split": "train",
+      "sha256": "4427a1afec300c8e2a5063ec9ed433d0f68a420caaedac12190fb25cb7b012b6"
+    },
+    {
+      "source": "rectangular/4914.jpg",
+      "destination": "train/rectangular/4914.jpg",
+      "label": "rectangular",
+      "split": "train",
+      "sha256": "8e98cbd51eb28c79537003bee66616936b42cf3764cf355b3f95b507fe58cee0"
+    },
+    {
+      "source": "rectangular/8979.jpg",
+      "destination": "train/rectangular/8979.jpg",
+      "label": "rectangular",
+      "split": "train",
+      "sha256": "5ab4ed7e292022094bde825613d893d760154fa219669ac12d595195214b8553"
+    },
+    {
+      "source": "rectangular/3930 - copia.jpg",
+      "destination": "train/rectangular/3930 - copia.jpg",
+      "label": "rectangular",
+      "split": "train",
+      "sha256": "ec154bb50d07f36e19dcdc80f07b79f09e050cc7b9b22b84beead40e18459126"
+    },
+    {
+      "source": "rectangular/9116.jpg",
+      "destination": "train/rectangular/9116.jpg",
+      "label": "rectangular",
+      "split": "train",
+      "sha256": "23a0166bdb87922057edb6c40e52a14d43048cad1e098b6021b75a7d98c50356"
+    },
+    {
+      "source": "rectangular/3913.jpg",
+      "destination": "train/rectangular/3913.jpg",
+      "label": "rectangular",
+      "split": "train",
+      "sha256": "9a37c94bf653720c35ed137a6611b2f7c8f3a17f99d1cc0600afcd1e47d5ff23"
+    },
+    {
+      "source": "rectangular/6469.jpg",
+      "destination": "train/rectangular/6469.jpg",
+      "label": "rectangular",
+      "split": "train",
+      "sha256": "cf42859452830b93a7ad7f0858a10e886e7e5a79b6d062e5fdbd59d6f91a5780"
+    },
+    {
+      "source": "rectangular/5597.jpg",
+      "destination": "train/rectangular/5597.jpg",
+      "label": "rectangular",
+      "split": "train",
+      "sha256": "d1012baf7f0a3019b0d25ed6c8ef92eb335f033f05c6a0cfd366d86bf4e3216b"
+    },
+    {
+      "source": "rectangular/7146.jpg",
+      "destination": "train/rectangular/7146.jpg",
+      "label": "rectangular",
+      "split": "train",
+      "sha256": "f81b5587340316879cea98ad045a5cfd991578429b071e53eabbe13690526ab0"
+    },
+    {
+      "source": "rectangular/8009.jpg",
+      "destination": "train/rectangular/8009.jpg",
+      "label": "rectangular",
+      "split": "train",
+      "sha256": "99857dfb30d1c44cd79ae9e0d8d37b93c7358b87e45fd0781f4ee8f4ad5a7f6e"
+    },
+    {
+      "source": "rectangular/2643.jpg",
+      "destination": "train/rectangular/2643.jpg",
+      "label": "rectangular",
+      "split": "train",
+      "sha256": "00eb66f9a03f0bde0f7faecf9d0e675c25614f64ab0211a510a3a4ec6a914794"
+    },
+    {
+      "source": "rectangular/7619.jpg",
+      "destination": "train/rectangular/7619.jpg",
+      "label": "rectangular",
+      "split": "train",
+      "sha256": "d8f2ff3c903a0170cf37f0bf72ece6cbbf88e983e4df1116362be13fbce014e2"
+    },
+    {
+      "source": "rectangular/9934_00043_mod.jpg",
+      "destination": "train/rectangular/9934_00043_mod.jpg",
+      "label": "rectangular",
+      "split": "train",
+      "sha256": "71839aac504d6401715f23b3a5c0d6f1c865b5c50a12ef0d02ab8ab84ba6e4de"
+    },
+    {
+      "source": "rectangular/5198.jpg",
+      "destination": "train/rectangular/5198.jpg",
+      "label": "rectangular",
+      "split": "train",
+      "sha256": "f0206edee8a38421a42a935cd4b775ed8a1e6e35407847f0670bb5792f5d56eb"
+    },
+    {
+      "source": "rectangular/5139.jpg",
+      "destination": "train/rectangular/5139.jpg",
+      "label": "rectangular",
+      "split": "train",
+      "sha256": "a38d23dd1f8e54a6252f0cf0a194522fc4b0c2da81de75f2c5e8652cb80ede72"
+    },
+    {
+      "source": "rectangular/5425.jpg",
+      "destination": "train/rectangular/5425.jpg",
+      "label": "rectangular",
+      "split": "train",
+      "sha256": "05c0cebe98539199c2dafccef91d3594a6c30029bb4999f85f643ef2172e46e5"
+    },
+    {
+      "source": "rectangular/5460.jpg",
+      "destination": "train/rectangular/5460.jpg",
+      "label": "rectangular",
+      "split": "train",
+      "sha256": "4d6186767f0be1837235b13d08a634290a07b7348d88615ccdd9d80f327e61e7"
+    },
+    {
+      "source": "rectangular/6782_00004_mod.jpg",
+      "destination": "train/rectangular/6782_00004_mod.jpg",
+      "label": "rectangular",
+      "split": "train",
+      "sha256": "5d2269a26d590992a23a74b358da22d568b59cbb644de83d5dd6fbe546f725d8"
+    },
+    {
+      "source": "rectangular/4899.jpg",
+      "destination": "train/rectangular/4899.jpg",
+      "label": "rectangular",
+      "split": "train",
+      "sha256": "bbbb4f6d54ce6400db2cf4f39a18328f37cfbc82e91f885b5e00a1e80068a27c"
+    },
+    {
+      "source": "rectangular/5192_00049_mod.jpg",
+      "destination": "train/rectangular/5192_00049_mod.jpg",
+      "label": "rectangular",
+      "split": "train",
+      "sha256": "c946011dd2d1433d076d9dc84d149891eb2bc8cd3149876077a2335c1226c556"
+    },
+    {
+      "source": "rectangular/8499.jpg",
+      "destination": "train/rectangular/8499.jpg",
+      "label": "rectangular",
+      "split": "train",
+      "sha256": "cdaeb73a8fa12e05f3334b9dba700b9c5418c47dfaf70eda46e593bc77cf12ac"
+    },
+    {
+      "source": "rectangular/9951.jpg",
+      "destination": "train/rectangular/9951.jpg",
+      "label": "rectangular",
+      "split": "train",
+      "sha256": "eeb9c80be724322830df67d27d4680429123f33c2e5d27dc4efc326d4f16b195"
+    },
+    {
+      "source": "rectangular/4472_00040_mod.jpg",
+      "destination": "train/rectangular/4472_00040_mod.jpg",
+      "label": "rectangular",
+      "split": "train",
+      "sha256": "5fddc958b2d96ecf5a831611b1cd111be28a1077f09e9fee9e801aa1bc474065"
+    },
+    {
+      "source": "rectangular/7450.jpg",
+      "destination": "train/rectangular/7450.jpg",
+      "label": "rectangular",
+      "split": "train",
+      "sha256": "82723060792dbe7b06835c5dd23ec7c746cff7a14f7841c78a681e497e41309f"
+    },
+    {
+      "source": "rectangular/3573.jpg",
+      "destination": "train/rectangular/3573.jpg",
+      "label": "rectangular",
+      "split": "train",
+      "sha256": "424bbb9d99cbbb8021a3f86775df1fbfa333183ac97026c3441bbc2cebb28288"
+    },
+    {
+      "source": "rectangular/5191.jpg",
+      "destination": "train/rectangular/5191.jpg",
+      "label": "rectangular",
+      "split": "train",
+      "sha256": "6ed5b88191d9d5b658ff6a7e4b67c10db2d589aed796869db7b8bcb22de77f75"
+    },
+    {
+      "source": "rectangular/9339.jpg",
+      "destination": "train/rectangular/9339.jpg",
+      "label": "rectangular",
+      "split": "train",
+      "sha256": "60ae66201be2470b6a40dd2f08affd4ccfbf1d34ea966c7144731465fc635eac"
+    },
+    {
+      "source": "rectangular/6322_00023_mod.jpg",
+      "destination": "train/rectangular/6322_00023_mod.jpg",
+      "label": "rectangular",
+      "split": "train",
+      "sha256": "13e9c3cf730fd62e2a71145a5dad60aa0c81015dde5309f452cfca9b380a174e"
+    },
+    {
+      "source": "rectangular/4219.jpg",
+      "destination": "train/rectangular/4219.jpg",
+      "label": "rectangular",
+      "split": "train",
+      "sha256": "554e0b93407e445f824c942728b0d9f2336539f916ef4571df34d5e2596318c2"
+    },
+    {
+      "source": "rectangular/6462.jpg",
+      "destination": "train/rectangular/6462.jpg",
+      "label": "rectangular",
+      "split": "train",
+      "sha256": "1bc14f824505fac2dee2ba1dab0149a8bd394dc5c2d886e264564b5a6abe1412"
+    }
+  ]
+}

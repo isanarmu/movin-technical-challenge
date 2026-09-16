@@ -1,0 +1,160 @@
+{
+  "sample_seed": 42,
+  "sampling": "random sample from sorted image paths",
+  "reviewed_images": [
+    "7223.jpg",
+    "2047.jpg",
+    "1261.jpg",
+    "8009.jpg",
+    "3805.jpg",
+    "3573.jpg",
+    "3196.jpg",
+    "2299.jpg",
+    "7982.jpg",
+    "1938.jpg",
+    "7619.jpg",
+    "9339.jpg",
+    "6240.jpg",
+    "1765.jpg",
+    "6739.jpg",
+    "5460.jpg",
+    "1332.jpg",
+    "132.jpg",
+    "1872.jpg",
+    "3166.jpg",
+    "3350.jpg",
+    "6037.jpg",
+    "6840.jpg",
+    "1308.jpg",
+    "6393.jpg",
+    "2997.jpg",
+    "7863.jpg",
+    "7370.jpg",
+    "7757.jpg",
+    "5420.jpg",
+    "3166_00013_mod.jpg",
+    "5597.jpg",
+    "6720.jpg",
+    "3839.jpg",
+    "8528.jpg",
+    "9089.jpg",
+    "1157.jpg",
+    "8199.jpg",
+    "8507.jpg",
+    "2575.jpg",
+    "7746.jpg",
+    "4641.jpg",
+    "2438.jpg",
+    "3125.jpg",
+    "9939.jpg",
+    "8242.jpg",
+    "4596.jpg",
+    "4966.jpg",
+    "1873_00035_mod.jpg",
+    "4761.jpg",
+    "8853.jpg",
+    "4658.jpg",
+    "6848.jpg",
+    "3708.jpg",
+    "8512.jpg",
+    "1414.jpg",
+    "7949.jpg",
+    "5667.jpg",
+    "6200.jpg",
+    "2137.jpg"
+  ],
+  "criterion": "Shape of main table top: round = circular; rectangular = visibly elongated rectangle. Ovals, squares and ambiguous cases omitted from this initial selection. Labels are provisional visual judgments, not model predictions. Unselected does not mean unsuitable. No train/test split or duplicate audit yet.",
+  "selected": [
+    {
+      "source": "Images/Images/Dining Room/1261.jpg",
+      "copy": "A3_experiment/round/1261.jpg",
+      "proposed_shape": "round",
+      "status": "pending_user_review",
+      "sha256": "4ebda84e8a9d56c6e6758ffb7f36e12c04251977c36b0e5fc309ae8165f30655"
+    },
+    {
+      "source": "Images/Images/Dining Room/132.jpg",
+      "copy": "A3_experiment/round/132.jpg",
+      "proposed_shape": "round",
+      "status": "pending_user_review",
+      "sha256": "1063275bcc929910da09e156ae2329c78622c92db26c2d4fbdc51673df7b52bd"
+    },
+    {
+      "source": "Images/Images/Dining Room/2438.jpg",
+      "copy": "A3_experiment/round/2438.jpg",
+      "proposed_shape": "round",
+      "status": "pending_user_review",
+      "sha256": "af33534858896bdd7f6a260c30d5b6e658eaa3ebfe8e4477529e476b13d999e9"
+    },
+    {
+      "source": "Images/Images/Dining Room/8009.jpg",
+      "copy": "A3_experiment/rectangular/8009.jpg",
+      "proposed_shape": "rectangular",
+      "status": "pending_user_review",
+      "sha256": "0b70f4f905133bd743c06a4e84f418112da0ff7a24cbb96385f7ca2bd43c291d"
+    },
+    {
+      "source": "Images/Images/Dining Room/3573.jpg",
+      "copy": "A3_experiment/rectangular/3573.jpg",
+      "proposed_shape": "rectangular",
+      "status": "pending_user_review",
+      "sha256": "0613a33696a3514b41752c9b84fabba330f2a2d457e761c5e0d1ae78c4c7ebdb"
+    },
+    {
+      "source": "Images/Images/Dining Room/7619.jpg",
+      "copy": "A3_experiment/rectangular/7619.jpg",
+      "proposed_shape": "rectangular",
+      "status": "pending_user_review",
+      "sha256": "3ef4d1b51291c1e1d1f3ba1b0f3aed9762429497e4ece685484c4631c1005e59"
+    },
+    {
+      "source": "Images/Images/Dining Room/9339.jpg",
+      "copy": "A3_experiment/rectangular/9339.jpg",
+      "proposed_shape": "rectangular",
+      "status": "pending_user_review",
+      "sha256": "acf55bc2d0abc993668653afe13c36c3ff6bcfea71a5920a259d6da634c22775"
+    },
+    {
+      "source": "Images/Images/Dining Room/5460.jpg",
+      "copy": "A3_experiment/rectangular/5460.jpg",
+      "proposed_shape": "rectangular",
+      "status": "pending_user_review",
+      "sha256": "535f212a588cec1d48528b4e0b2a620bcffdb2845e7fad519b88af479e24cccf"
+    },
+    {
+      "source": "Images/Images/Dining Room/6840.jpg",
+      "copy": "A3_experiment/rectangular/6840.jpg",
+      "proposed_shape": "rectangular",
+      "status": "pending_user_review",
+      "sha256": "f35e8cbc8fb3055341225fb99952a2c4e119bb60abcddbd5fd3695b463c72ccb"
+    },
+    {
+      "source": "Images/Images/Dining Room/5597.jpg",
+      "copy": "A3_experiment/rectangular/5597.jpg",
+      "proposed_shape": "rectangular",
+      "status": "pending_user_review",
+      "sha256": "75081ef76b6c66d4e189b8efe8b6a641ee8c8e0ccfc1e2fa532fd075c593d8a1"
+    },
+    {
+      "source": "Images/Images/Dining Room/1157.jpg",
+      "copy": "A3_experiment/rectangular/1157.jpg",
+      "proposed_shape": "rectangular",
+      "status": "pending_user_review",
+      "sha256": "93fc86a9f4697671c64f0990b402f894958b39dfdfea6e5847e20eff551d5f78"
+    },
+    {
+      "source": "Images/Images/Dining Room/8242.jpg",
+      "copy": "A3_experiment/rectangular/8242.jpg",
+      "proposed_shape": "rectangular",
+      "status": "pending_user_review",
+      "sha256": "fad43290044fa603a8ffa32446a406eea4c35ecf87496d2f95e9d21cebaa8705"
+    },
+    {
+      "source": "Images/Images/Dining Room/7949.jpg",
+      "copy": "A3_experiment/rectangular/7949.jpg",
+      "proposed_shape": "rectangular",
+      "status": "pending_user_review",
+      "sha256": "7275de683149af72f42ccb023ffa871cb4fa7ef260aa266466d382fe538e516b"
+    }
+  ]
+}

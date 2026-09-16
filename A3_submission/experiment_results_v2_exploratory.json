@@ -1,0 +1,229 @@
+{
+  "evaluation_type": "exploratory_post_error_analysis",
+  "independent_test": false,
+  "reason_not_independent": "Some crops were revised after inspecting errors from the first run. This rerun therefore measures an exploratory preprocessing change, not an independent estimate of generalisation.",
+  "seed": 42,
+  "model": "CLIP ViT-B-32 / OpenAI, frozen",
+  "checkpoint_sha256": "e6d1bd7789aa45192b3bf90570a789b478bae1b74ebcce7eddd908e83a2b7c31",
+  "prompts": [
+    "a photo of a round table",
+    "a photo of a rectangular table"
+  ],
+  "preprocessing": "EXIF transpose, RGB, bicubic letterbox to 224x224, padding RGB(123,117,104), OpenCLIP normalization",
+  "classifier": "LogisticRegression(C=1.0, max_iter=1000), normalized CLIP vectors",
+  "train_count": 58,
+  "test_count": 20,
+  "changed_file_count": 4,
+  "changed_files": [
+    {
+      "file": "test/round/3398.jpg",
+      "split": "test",
+      "label": "round",
+      "original_sha256": "2a9941a78f18a169ba978b70adc352d0fd0965585213f06774b93163271e7ecd",
+      "current_sha256": "a3d61a163ed09d5ff8302d096a2b5852e37e8950e54faf977b04ac35720b7e7c"
+    },
+    {
+      "file": "test/round/2438.jpg",
+      "split": "test",
+      "label": "round",
+      "original_sha256": "8cb914203d3f973a097d1e0a304ef24ba1e380e451e7670f93e8570ef7766e20",
+      "current_sha256": "ed404f209b1eea939d21b1f36839ced4d9c29b883c90b9c4921e438f713dd6d1"
+    },
+    {
+      "file": "test/round/5069.jpg",
+      "split": "test",
+      "label": "round",
+      "original_sha256": "9adddd66353c7ec516c6c9b86e1dcf13f40498077aa14fa0578ebfa2817d00d8",
+      "current_sha256": "53da94b4aa351b2bc234a70180646360e132ad7a021636f3bfb58a36f05c5a14"
+    },
+    {
+      "file": "test/round/5263.jpg",
+      "split": "test",
+      "label": "round",
+      "original_sha256": "87bb31f103ce98c0d4bb82eea639bd48fc537921d6e03f0621647af702da5432",
+      "current_sha256": "a75ac3774dccf0a928ce7ae9a75f874d59248f3878d326e68070a48174f0bf9a"
+    }
+  ],
+  "matrix_label_order": [
+    "round",
+    "rectangular"
+  ],
+  "majority_baseline": {
+    "correct": 10,
+    "total": 20,
+    "accuracy": 0.5,
+    "macro_f1": 0.3333333333333333,
+    "confusion_matrix": [
+      [
+        0,
+        10
+      ],
+      [
+        0,
+        10
+      ]
+    ]
+  },
+  "zero_shot": {
+    "correct": 17,
+    "total": 20,
+    "accuracy": 0.85,
+    "macro_f1": 0.8465473145780051,
+    "confusion_matrix": [
+      [
+        7,
+        3
+      ],
+      [
+        0,
+        10
+      ]
+    ]
+  },
+  "few_shot": {
+    "correct": 14,
+    "total": 20,
+    "accuracy": 0.7,
+    "macro_f1": 0.6703296703296704,
+    "confusion_matrix": [
+      [
+        4,
+        6
+      ],
+      [
+        0,
+        10
+      ]
+    ]
+  },
+  "predictions": [
+    {
+      "file": "test/round/3398.jpg",
+      "actual": "round",
+      "zero_shot": "round",
+      "few_shot": "round"
+    },
+    {
+      "file": "test/round/954.jpg",
+      "actual": "round",
+      "zero_shot": "round",
+      "few_shot": "rectangular"
+    },
+    {
+      "file": "test/round/3348.jpg",
+      "actual": "round",
+      "zero_shot": "round",
+      "few_shot": "rectangular"
+    },
+    {
+      "file": "test/round/932.jpg",
+      "actual": "round",
+      "zero_shot": "round",
+      "few_shot": "rectangular"
+    },
+    {
+      "file": "test/round/963_00027_mod.jpg",
+      "actual": "round",
+      "zero_shot": "round",
+      "few_shot": "rectangular"
+    },
+    {
+      "file": "test/round/5217.jpg",
+      "actual": "round",
+      "zero_shot": "round",
+      "few_shot": "round"
+    },
+    {
+      "file": "test/round/3480.jpg",
+      "actual": "round",
+      "zero_shot": "round",
+      "few_shot": "round"
+    },
+    {
+      "file": "test/round/2438.jpg",
+      "actual": "round",
+      "zero_shot": "rectangular",
+      "few_shot": "rectangular"
+    },
+    {
+      "file": "test/round/5069.jpg",
+      "actual": "round",
+      "zero_shot": "rectangular",
+      "few_shot": "round"
+    },
+    {
+      "file": "test/round/5263.jpg",
+      "actual": "round",
+      "zero_shot": "rectangular",
+      "few_shot": "rectangular"
+    },
+    {
+      "file": "test/rectangular/5188.jpg",
+      "actual": "rectangular",
+      "zero_shot": "rectangular",
+      "few_shot": "rectangular"
+    },
+    {
+      "file": "test/rectangular/5189.jpg",
+      "actual": "rectangular",
+      "zero_shot": "rectangular",
+      "few_shot": "rectangular"
+    },
+    {
+      "file": "test/rectangular/5186.jpg",
+      "actual": "rectangular",
+      "zero_shot": "rectangular",
+      "few_shot": "rectangular"
+    },
+    {
+      "file": "test/rectangular/1157.jpg",
+      "actual": "rectangular",
+      "zero_shot": "rectangular",
+      "few_shot": "rectangular"
+    },
+    {
+      "file": "test/rectangular/6334.jpg",
+      "actual": "rectangular",
+      "zero_shot": "rectangular",
+      "few_shot": "rectangular"
+    },
+    {
+      "file": "test/rectangular/5161.jpg",
+      "actual": "rectangular",
+      "zero_shot": "rectangular",
+      "few_shot": "rectangular"
+    },
+    {
+      "file": "test/rectangular/6840.jpg",
+      "actual": "rectangular",
+      "zero_shot": "rectangular",
+      "few_shot": "rectangular"
+    },
+    {
+      "file": "test/rectangular/4477.jpg",
+      "actual": "rectangular",
+      "zero_shot": "rectangular",
+      "few_shot": "rectangular"
+    },
+    {
+      "file": "test/rectangular/7949.jpg",
+      "actual": "rectangular",
+      "zero_shot": "rectangular",
+      "few_shot": "rectangular"
+    },
+    {
+      "file": "test/rectangular/8242.jpg",
+      "actual": "rectangular",
+      "zero_shot": "rectangular",
+      "few_shot": "rectangular"
+    }
+  ],
+  "limitations": [
+    "Exploratory rerun after inspecting first-run errors; test set is not independent.",
+    "Small, manually selected sample: results do not establish production reliability.",
+    "Manual crops: evaluates shape classification, not base detection or the full pipeline.",
+    "Exact duplicates checked; room separation relies on user review.",
+    "Binary task excludes squares and ambiguous shapes; no unknown handling evaluated.",
+    "Prompts and classifier hyperparameters were kept unchanged from the original run."
+  ]
+}

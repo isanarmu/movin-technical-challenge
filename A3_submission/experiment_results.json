@@ -1,0 +1,194 @@
+{
+  "seed": 42,
+  "model": "CLIP ViT-B-32 / OpenAI, frozen",
+  "checkpoint_sha256": "e6d1bd7789aa45192b3bf90570a789b478bae1b74ebcce7eddd908e83a2b7c31",
+  "prompts": [
+    "a photo of a round table",
+    "a photo of a rectangular table"
+  ],
+  "preprocessing": "EXIF transpose, RGB, bicubic letterbox to 224x224, padding RGB(123,117,104), OpenCLIP normalization",
+  "classifier": "LogisticRegression(C=1.0, max_iter=1000), normalized CLIP vectors",
+  "train_count": 58,
+  "test_count": 20,
+  "matrix_label_order": [
+    "round",
+    "rectangular"
+  ],
+  "majority_baseline": {
+    "correct": 10,
+    "total": 20,
+    "accuracy": 0.5,
+    "macro_f1": 0.3333333333333333,
+    "confusion_matrix": [
+      [
+        0,
+        10
+      ],
+      [
+        0,
+        10
+      ]
+    ]
+  },
+  "zero_shot": {
+    "correct": 16,
+    "total": 20,
+    "accuracy": 0.8,
+    "macro_f1": 0.7916666666666667,
+    "confusion_matrix": [
+      [
+        6,
+        4
+      ],
+      [
+        0,
+        10
+      ]
+    ]
+  },
+  "few_shot": {
+    "correct": 12,
+    "total": 20,
+    "accuracy": 0.6,
+    "macro_f1": 0.5238095238095238,
+    "confusion_matrix": [
+      [
+        2,
+        8
+      ],
+      [
+        0,
+        10
+      ]
+    ]
+  },
+  "predictions": [
+    {
+      "file": "test/round/3398.jpg",
+      "actual": "round",
+      "zero_shot": "rectangular",
+      "few_shot": "rectangular"
+    },
+    {
+      "file": "test/round/954.jpg",
+      "actual": "round",
+      "zero_shot": "round",
+      "few_shot": "rectangular"
+    },
+    {
+      "file": "test/round/3348.jpg",
+      "actual": "round",
+      "zero_shot": "round",
+      "few_shot": "rectangular"
+    },
+    {
+      "file": "test/round/932.jpg",
+      "actual": "round",
+      "zero_shot": "round",
+      "few_shot": "rectangular"
+    },
+    {
+      "file": "test/round/963_00027_mod.jpg",
+      "actual": "round",
+      "zero_shot": "round",
+      "few_shot": "rectangular"
+    },
+    {
+      "file": "test/round/5217.jpg",
+      "actual": "round",
+      "zero_shot": "round",
+      "few_shot": "round"
+    },
+    {
+      "file": "test/round/3480.jpg",
+      "actual": "round",
+      "zero_shot": "round",
+      "few_shot": "round"
+    },
+    {
+      "file": "test/round/2438.jpg",
+      "actual": "round",
+      "zero_shot": "rectangular",
+      "few_shot": "rectangular"
+    },
+    {
+      "file": "test/round/5069.jpg",
+      "actual": "round",
+      "zero_shot": "rectangular",
+      "few_shot": "rectangular"
+    },
+    {
+      "file": "test/round/5263.jpg",
+      "actual": "round",
+      "zero_shot": "rectangular",
+      "few_shot": "rectangular"
+    },
+    {
+      "file": "test/rectangular/5188.jpg",
+      "actual": "rectangular",
+      "zero_shot": "rectangular",
+      "few_shot": "rectangular"
+    },
+    {
+      "file": "test/rectangular/5189.jpg",
+      "actual": "rectangular",
+      "zero_shot": "rectangular",
+      "few_shot": "rectangular"
+    },
+    {
+      "file": "test/rectangular/5186.jpg",
+      "actual": "rectangular",
+      "zero_shot": "rectangular",
+      "few_shot": "rectangular"
+    },
+    {
+      "file": "test/rectangular/1157.jpg",
+      "actual": "rectangular",
+      "zero_shot": "rectangular",
+      "few_shot": "rectangular"
+    },
+    {
+      "file": "test/rectangular/6334.jpg",
+      "actual": "rectangular",
+      "zero_shot": "rectangular",
+      "few_shot": "rectangular"
+    },
+    {
+      "file": "test/rectangular/5161.jpg",
+      "actual": "rectangular",
+      "zero_shot": "rectangular",
+      "few_shot": "rectangular"
+    },
+    {
+      "file": "test/rectangular/6840.jpg",
+      "actual": "rectangular",
+      "zero_shot": "rectangular",
+      "few_shot": "rectangular"
+    },
+    {
+      "file": "test/rectangular/4477.jpg",
+      "actual": "rectangular",
+      "zero_shot": "rectangular",
+      "few_shot": "rectangular"
+    },
+    {
+      "file": "test/rectangular/7949.jpg",
+      "actual": "rectangular",
+      "zero_shot": "rectangular",
+      "few_shot": "rectangular"
+    },
+    {
+      "file": "test/rectangular/8242.jpg",
+      "actual": "rectangular",
+      "zero_shot": "rectangular",
+      "few_shot": "rectangular"
+    }
+  ],
+  "limitations": [
+    "Small, manually selected sample: results do not establish production reliability.",
+    "Manual crops: evaluates shape classification, not base detection or the full pipeline.",
+    "Exact duplicates checked; room separation relies on user review.",
+    "Binary task excludes squares and ambiguous shapes; no unknown handling evaluated.",
+    "Do not tune prompts or hyperparameters against this test set."
+  ]
+}
